@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		FA6522511BDEB9F700FE1B1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6522501BDEB9F700FE1B1E /* AppDelegate.swift */; };
-		FA6522531BDEB9F700FE1B1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6522521BDEB9F700FE1B1E /* ViewController.swift */; };
+		FA6522531BDEB9F700FE1B1E /* PlannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6522521BDEB9F700FE1B1E /* PlannerViewController.swift */; };
 		FA6522561BDEB9F700FE1B1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6522541BDEB9F700FE1B1E /* Main.storyboard */; };
 		FA6522581BDEB9F700FE1B1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6522571BDEB9F700FE1B1E /* Assets.xcassets */; };
 		FA65225B1BDEB9F700FE1B1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6522591BDEB9F700FE1B1E /* LaunchScreen.storyboard */; };
 		FA6522661BDEB9F700FE1B1E /* SCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6522651BDEB9F700FE1B1E /* SCalendarTests.swift */; };
+		FA65227B1BDEE1DE00FE1B1E /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA65227A1BDEE1DE00FE1B1E /* EventViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,7 @@
 /* Begin PBXFileReference section */
 		FA65224D1BDEB9F700FE1B1E /* SCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6522501BDEB9F700FE1B1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA6522521BDEB9F700FE1B1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA6522521BDEB9F700FE1B1E /* PlannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerViewController.swift; sourceTree = "<group>"; };
 		FA6522551BDEB9F700FE1B1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA6522571BDEB9F700FE1B1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA65225A1BDEB9F700FE1B1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +37,7 @@
 		FA6522611BDEB9F700FE1B1E /* SCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6522651BDEB9F700FE1B1E /* SCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCalendarTests.swift; sourceTree = "<group>"; };
 		FA6522671BDEB9F700FE1B1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA65227A1BDEE1DE00FE1B1E /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				FA6522501BDEB9F700FE1B1E /* AppDelegate.swift */,
-				FA6522521BDEB9F700FE1B1E /* ViewController.swift */,
+				FA6522521BDEB9F700FE1B1E /* PlannerViewController.swift */,
+				FA65227A1BDEE1DE00FE1B1E /* EventViewController.swift */,
 				FA6522541BDEB9F700FE1B1E /* Main.storyboard */,
 				FA6522571BDEB9F700FE1B1E /* Assets.xcassets */,
 				FA6522591BDEB9F700FE1B1E /* LaunchScreen.storyboard */,
@@ -197,8 +200,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA6522531BDEB9F700FE1B1E /* ViewController.swift in Sources */,
+				FA6522531BDEB9F700FE1B1E /* PlannerViewController.swift in Sources */,
 				FA6522511BDEB9F700FE1B1E /* AppDelegate.swift in Sources */,
+				FA65227B1BDEE1DE00FE1B1E /* EventViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +392,7 @@
 				FA65226C1BDEB9F700FE1B1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA65226D1BDEB9F700FE1B1E /* Build configuration list for PBXNativeTarget "SCalendarTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +401,7 @@
 				FA65226F1BDEB9F700FE1B1E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
