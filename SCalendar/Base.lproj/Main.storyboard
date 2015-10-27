@@ -24,7 +24,7 @@
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" textLabel="WjQ-J1-U5C" detailTextLabel="fTU-nl-Q8P" style="IBUITableViewCellStyleSubtitle" id="8JC-GN-ABR">
-                                        <rect key="frame" x="0.0" y="49.5" width="600" height="44"/>
+                                        <rect key="frame" x="0.0" y="50" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8JC-GN-ABR" id="izl-id-Y7h">
                                             <rect key="frame" x="0.0" y="0.0" width="567" height="43.5"/>
@@ -58,8 +58,11 @@
                                 </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ND7-rD-JMm">
-                                <rect key="frame" x="491" y="20" width="30" height="30"/>
+                                <rect key="frame" x="515" y="68" width="30" height="30"/>
                                 <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="f3k-SE-1sa"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                 <state key="normal" title="+"/>
                                 <connections>
@@ -70,13 +73,12 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="4QG-0u-1U7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4Nh-aQ-YtV"/>
-                            <constraint firstItem="ND7-rD-JMm" firstAttribute="top" secondItem="4QG-0u-1U7" secondAttribute="top" constant="-129" id="5Qp-kr-utz"/>
-                            <constraint firstItem="4QG-0u-1U7" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="BFP-cd-0se"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ND7-rD-JMm" secondAttribute="trailing" constant="59" id="HXd-I5-4Fj"/>
-                            <constraint firstItem="4QG-0u-1U7" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="129" id="Qsh-zV-wub"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ND7-rD-JMm" secondAttribute="bottom" constant="550" id="d89-ug-zBZ"/>
-                            <constraint firstAttribute="trailing" secondItem="4QG-0u-1U7" secondAttribute="trailing" id="nwT-iP-R1c"/>
+                            <constraint firstItem="4QG-0u-1U7" firstAttribute="top" secondItem="ND7-rD-JMm" secondAttribute="bottom" constant="51" id="3Pk-8z-XVd"/>
+                            <constraint firstAttribute="trailing" secondItem="4QG-0u-1U7" secondAttribute="trailing" id="Rie-Jg-WpF"/>
+                            <constraint firstItem="4QG-0u-1U7" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="dnp-CZ-nbh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ND7-rD-JMm" secondAttribute="trailing" constant="35" id="gz7-gz-eOB"/>
+                            <constraint firstItem="4QG-0u-1U7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="rMF-XU-9Lw"/>
+                            <constraint firstItem="ND7-rD-JMm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="48" id="xtf-4g-T8n"/>
                         </constraints>
                     </view>
                 </viewController>
